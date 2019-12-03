@@ -1,2 +1,4 @@
 # PasswordManager
- Simple Password Manger
+ Simple Password Manager
+
+A basic password manager built using Crypto++ and Chrome Extension API.
