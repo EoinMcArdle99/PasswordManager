@@ -4,6 +4,6 @@
   "path": "ProcessMessage\\Debug\\ProcessMessage.exe",
   "type": "stdio",
   "allowed_origins": [
-    "chrome-extension://ppkpebnmjmopphmjkikcnehlhpoajjgm/"
+    "chrome-extension://ppkpebnmjmopphmjkikcnekdipoajjgm/"
   ]
 }
