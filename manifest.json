@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+    "version": "45.0.2454.93",
+    "name": "Test extension",
+    "description": "Native messaging test",
+    "permissions": [
+                    "nativeMessaging",
+                    "storage",
+                    "tabs",
+                    "activeTab",
+                    "http://*/", "https://*/"
+                    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["content.js"],
+            "run_at": "document_end"
+        }
+    ],
+    "browser_action": {
+        "default_icon" : "icon.jpg",
+        "default_popup" : "interface.html"
+    },
+        
+    
+    
+    "minimum_chrome_version": "29"
+}

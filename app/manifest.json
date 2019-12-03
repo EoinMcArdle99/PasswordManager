@@ -1,0 +1,9 @@
+{
+  "name": "com.my_company.my_application",
+  "description": "My Application",
+  "path": "ProcessMessage\\Debug\\ProcessMessage.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://ppkpebnmjmopphmjkikcnehlhpoajjgm/"
+  ]
+}

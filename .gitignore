@@ -10,6 +10,9 @@
 *.userosscache
 *.sln.docstates
 
+#exclude cryptopp
+app/ProcessMessage/Encryption/*
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -351,3 +354,11 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+app/ProcessMessage/PasswordManagerApp/pch.cpp
+app/ProcessMessage/PasswordManagerApp/pch.h
+app/ProcessMessage/PasswordManagerApp/PasswordManagerApp.vcxproj.filters
+app/ProcessMessage/PasswordManagerApp/PasswordManagerApp.vcxproj
+app/ProcessMessage/ProcessMessage/ProcessMessage.vcxproj
+app/ProcessMessage/ProcessMessage/ProcessMessage.vcxproj.filters
+icon.jpg
+app/ProcessMessage/ProcessMessage.sln
